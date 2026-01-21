@@ -1,0 +1,41 @@
+header {
+  background-color: var(--background-terciary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 48px;
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-terciary-color);
+}
+
+nav {
+  display: none;
+}
+
+.list-link{
+    list-style: none;
+}
+
+.list-link li a{
+    color: var(--text-secondary-color);
+    text-decoration: none;
+}
+
+.list-link li {
+    margin: 16px;
+}
