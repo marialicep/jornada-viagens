@@ -45,6 +45,7 @@
   }
 }
 
+@media screen and (min-width: 1920px) {
   .hero-img {
     background: url(../img/hero-desktop.png) no-repeat;
     background-size: cover;
@@ -57,3 +58,4 @@
     font-size: 32px;
     text-align: center;
   }
+}
