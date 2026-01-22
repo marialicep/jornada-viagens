@@ -13,6 +13,7 @@
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
 }
 
 .card header p {
@@ -30,5 +31,5 @@
   display: inline-block;
   font-size: 32px;
   font-weight: var(--title-weight);
-  margin-top: 24px;
+  margin: 24px 0 24px;
 }
