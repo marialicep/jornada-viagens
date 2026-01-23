@@ -1,8 +1,3 @@
-.categories-main .section-title {
-  width: 312px;
-  margin: 0 auto;
-}
-
 .categories-cards {
   display: flex;
   flex-direction: column;
@@ -49,31 +44,34 @@
 }
 
 @media screen and (min-width: 768px) {
+  .categories-cards {
+    margin-top: 0px;
+  }
+
   .categories {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%; /* Garante que ele use a largura total */
     gap: 20px;
-  }
-
-  .categories-main .section-title {
-    width: 100%;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .categories-cards .card {
-    width: 430px;
+  .categories-cards {
+    margin-top: 0px;
   }
 
-  .categories-main .section-title {
-    width: 100%;
+  .categories-cards .card {
+    width: 430px;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .categories-cards {
+    margin-top: 0px;
+  }
+
   .categories-cards .card {
     width: 280px;
   }

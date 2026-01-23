@@ -10,14 +10,6 @@
   flex-direction: column;
 }
 
-.destinations .item.tokyo {
-  margin-top: 32px;
-}
-
-.destinations .item.osaka {
-  margin-top: 40px;
-}
-
 .destinations .item h4 {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -117,10 +109,6 @@
 
   .destinations .item p {
     width: 588px;
-  }
-
-  .destinations .item.osaka p {
-    margin-bottom: 24px;
   }
 
   .destinations .item.tokyo .img-item {
