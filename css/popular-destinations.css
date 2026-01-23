@@ -33,6 +33,7 @@
 
 .destinations .item .button {
   text-align: center;
+  width: 100%;
 }
 
 .destinations .item.tokyo .img-item {
@@ -53,6 +54,7 @@
   .destinations .item p {
     width: 648px;
   }
+
   .destinations .item.tokyo .img-item {
     background: url(../img/Tokyo-tablet-e-desktop.jpg) no-repeat;
     background-size: cover;
@@ -65,6 +67,10 @@
     background-size: cover;
     width: 648px;
     height: 452px;
+  }
+
+  .destinations .item .button {
+    width: 280px;
   }
 }
 
