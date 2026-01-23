@@ -1,14 +1,8 @@
-.categories-main .section-title {
-  width: 312px;
-  margin: 0 auto;
-}
-
 .categories-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 24px;
-  margin-bottom: 88px;
 }
 
 .categories-cards .card {
@@ -50,43 +44,35 @@
 }
 
 @media screen and (min-width: 768px) {
+  .categories-cards {
+    margin-top: 0px;
+  }
+
   .categories {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%; /* Garante que ele use a largura total */
     gap: 20px;
-  }
-
-  .categories-main .section-title {
-    width: 100%;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  .categories-cards {
+    margin-top: 0px;
+  }
+
   .categories-cards .card {
     width: 430px;
-  }
-
-  .categories-main .section-title {
-    width: 100%;
-  }
-
-  .categories-cards {
-    margin-bottom: 104px;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .categories-cards {
+    margin-top: 0px;
+  }
+
   .categories-cards .card {
     width: 280px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-
-  .categories-cards {
-    margin-bottom: 139px;
   }
 }
