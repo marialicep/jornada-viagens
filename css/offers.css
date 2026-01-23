@@ -75,6 +75,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .offers {
+    margin-bottom: 104px;
+  }
+
   .card {
     width: 420px;
     height: 308px;
@@ -100,5 +104,9 @@
   .offers-card {
     width: 1250px;
     margin: 0 auto;
+  }
+
+  .offers {
+    margin-bottom: 139px;
   }
 }
