@@ -68,13 +68,17 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    margin: 0 120px;
+    padding: 52px 120px;
   }
 
   .rodape .rodape-content header {
-    margin: 52px 0;
     display: block;
     text-align: start;
+  }
+
+  .rodape .rodape-content p {
+    font-size: 16px;
+    line-height: 28px;
   }
 
   .rodape .rodape-content .text-content {
@@ -83,9 +87,5 @@
     text-align: start;
     gap: 8px;
     margin: 0;
-  }
-
-  .footer-content {
-    margin: 78px 0;
   }
 }
