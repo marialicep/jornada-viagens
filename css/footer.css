@@ -1,0 +1,91 @@
+.rodape {
+  background-color: var(--background-terciary-color);
+}
+
+.rodape .footer-img {
+  height: 400px;
+  width: 100%;
+  background: url(../img/Imagem-rodapé-mobile.png) no-repeat;
+  background-size: cover;
+  margin-bottom: 32px;
+}
+
+.rodape .rodape-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.rodape .rodape-content img {
+  margin-bottom: 16px;
+}
+
+.rodape .rodape-content .text-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+  margin: 0 24px 32px;
+}
+
+.rodape .rodape-content p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  color: var(--background-secondary-color);
+}
+
+.rodape .rodape-content .social-title {
+  margin-bottom: 16px;
+}
+
+.rodape .rodape-content .social-content {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .rodape .footer-img {
+    height: 400px;
+    width: 100%;
+    background: url(../img/Imagem-rodapé-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .rodape .footer-img {
+    height: 600px;
+    width: 100%;
+    background: url(../img/Imagem-rodapé-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .rodape .rodape-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 52px 120px;
+  }
+
+  .rodape .rodape-content header {
+    display: block;
+    text-align: start;
+  }
+
+  .rodape .rodape-content p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .rodape .rodape-content .text-content {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 8px;
+    margin: 0;
+  }
+}
