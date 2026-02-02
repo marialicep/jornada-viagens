@@ -46,6 +46,10 @@ nav {
   font-weight: var(--menu-text-weight);
 }
 
+.list-link li a.active {
+  text-decoration: underline;
+}
+
 .list-link li {
   margin: 16px;
 }

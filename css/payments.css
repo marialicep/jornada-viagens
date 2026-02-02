@@ -26,6 +26,43 @@
   grid-column: span 2;
 }
 
+/* PACOTES DE VIAGEM */
+
+.package-payments .package-payments-content h2 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin-bottom: 24px;
+  color: var(--text-primary-color);
+}
+
+.package-payments .package-payments-content h3 {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: var(--title-weight);
+  margin-bottom: 24px;
+  color: var(--text-primary-color);
+}
+
+.package-payments .package-payments-content p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  margin-bottom: 24px;
+  color: var(--text-primary-color);
+}
+
+.package-payments .package-payments-content .button {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.package-payments .content-container .image-content .image.palace{
+  background: url(../img/banner1-pagamentos.png) no-repeat;
+  background-size: cover;
+
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-content .image.bag {
     background: url(../img/bag-tablet.png) no-repeat;
@@ -40,6 +77,15 @@
   .payments .content-container .image-content .image.people {
     background: url(../img/people-tablet.png) no-repeat;
     background-size: cover;
+  }
+
+  /* PACOTES DE VIAGEM */
+
+  .package-payments .package-payments-content .package-payments-content-img {
+    display: grid;
+    grid-template-columns: 144px 144px;
+    gap: 24px;
+    justify-content: center;
   }
 }
 
