@@ -32,6 +32,46 @@
   margin-top: 40px;
 }
 
+/* PACOTES DE VIAGEM  */
+
+.packages-destination .section-title {
+  margin-top: 88px;
+}
+
+.packages-destination .item {
+  display: flex;
+  flex-direction: column;
+}
+
+.packages-destination .item h3 {
+  margin: 24px 0;
+}
+
+.packages-destination .item p {
+  width: 312px;
+  margin-bottom: 24px;
+}
+
+.packages-destination .item .button {
+  text-align: center;
+  width: 100%;
+}
+
+.packages-destination .item.tokyo .img-item {
+  background: url(../img/Tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+  width: 312px;
+  height: 360px;
+}
+
+.packages-destination .item.osaka .img-item {
+  background: url(../img/Osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+  width: 312px;
+  height: 360px;
+  margin-top: 40px;
+}
+
 @media screen and (min-width: 768px) {
   .destinations .item p {
     width: 648px;
@@ -52,6 +92,29 @@
   }
 
   .destinations .item .button {
+    width: 280px;
+  }
+
+  /* PACOTES DE VIAGEM  */
+  .packages-destination .item p {
+    width: 648px;
+  }
+
+  .packages-destination .item.tokyo .img-item {
+    background: url(../img/Tokyo-tablet-e-desktop.jpg) no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 452px;
+  }
+
+  .packages-destination .item.osaka .img-item {
+    background: url(../img/Osaka-tablet-e-desktop.jpg) no-repeat;
+    background-size: cover;
+    width: 648px;
+    height: 452px;
+  }
+
+  .packages-destination .item .button {
     width: 280px;
   }
 }
@@ -87,6 +150,38 @@
     height: 452px;
     margin-top: 0;
   }
+
+  /* PACOTES DE VIAGEM  */
+  .destinations-itens {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .packages-destination .item p {
+    width: 418px;
+  }
+
+  .packages-destination .item.osaka p {
+    margin-bottom: 48px;
+  }
+
+  .packages-destination .item.tokyo .img-item {
+    background: url(../img/Tokyo-tablet-e-desktop.jpg) no-repeat;
+    background-size: cover;
+    width: 418px;
+    height: 452px;
+  }
+
+  .packages-destination .item.osaka .img-item {
+    background: url(../img/Osaka-tablet-e-desktop.jpg) no-repeat;
+    background-size: cover;
+    width: 418px;
+    height: 452px;
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -110,6 +205,33 @@
   }
 
   .destinations .item.osaka .img-item {
+    background: url(../img/Osaka-tablet-e-desktop.jpg) no-repeat;
+    background-size: cover;
+    width: 588px;
+    height: 452px;
+  }
+
+  /* PACOTES DE VIAGEM  */
+  .destinations-itens {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .packages-destination .item p {
+    width: 588px;
+  }
+
+  .packages-destination .item.tokyo .img-item {
+    background: url(../img/Tokyo-tablet-e-desktop.jpg) no-repeat;
+    background-size: cover;
+    width: 588px;
+    height: 452px;
+  }
+
+  .packages-destination .item.osaka .img-item {
     background: url(../img/Osaka-tablet-e-desktop.jpg) no-repeat;
     background-size: cover;
     width: 588px;
