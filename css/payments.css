@@ -28,6 +28,10 @@
 
 /* PACOTES DE VIAGEM */
 
+.package-payments{
+  padding: auto;
+}
+
 .package-payments .package-payments-content h2 {
   font-size: 40px;
   font-weight: var(--title-weight);
@@ -57,10 +61,37 @@
   margin-bottom: 24px;
 }
 
-.package-payments .content-container .image-content .image.palace{
-  background: url(../img/banner1-pagamentos.png) no-repeat;
-  background-size: cover;
+/* Container do Grid */
+.package-payments .package-payments-container .package-image-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 790px;
+  margin: 0 auto;
+}
 
+/* A DIV que envolve a imagem */
+.package-payments .package-payments-container .package-image-content .image {
+  width: 100%;
+  height: 254px;
+  overflow: hidden; /* Garante que a imagem não saia da borda arredondada */
+}
+
+/* A IMAGEM propriamente dita */
+.package-payments
+  .package-payments-container
+  .package-image-content
+  .image
+  img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Agora sim o corte funciona */
+  display: block;
+}
+
+/* Correção do seletor: removido o .content-container inexistente */
+.package-image-content .image.man {
+  grid-column: span 2;
 }
 
 @media screen and (min-width: 768px) {
@@ -81,11 +112,8 @@
 
   /* PACOTES DE VIAGEM */
 
-  .package-payments .package-payments-content .package-payments-content-img {
-    display: grid;
-    grid-template-columns: 144px 144px;
-    gap: 24px;
-    justify-content: center;
+  .package-payments .package-payments-content .button {
+    width: 280px;
   }
 }
 
@@ -107,7 +135,27 @@
     width: 790px;
     margin-top: 0;
   }
+
+  /* PACOTES DE VIAGEM */
+
+  .package-payments-container {
+    display: flex;
+    gap: 23px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  /* PACOTES DE VIAGEM */
+
+  .package-payments .package-payments-content h2 {
+    font-size: 48px;
+  }
+
+  .package-payments .package-payments-content h3 {
+    font-size: 32px;
+  }
+
+  .package-payments .package-payments-content p {
+    line-height: 28px;
+  }
 }
