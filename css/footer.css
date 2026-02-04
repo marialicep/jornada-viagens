@@ -46,12 +46,32 @@
   margin-bottom: 32px;
 }
 
+/* PACOTE DE VIAGENS */
+
+.rodape .package-footer-img {
+  height: 400px;
+  width: 100%;
+  background: url(../img/hero-rodapé-pacote-de-viagens-mobile.png) no-repeat;
+  background-size: cover;
+  margin-bottom: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .rodape .footer-img {
     height: 400px;
     width: 100%;
     background: url(../img/Imagem-rodapé-tablet.png) no-repeat;
     background-size: cover;
+  }
+
+  /* PACOTE DE VIAGENS */
+
+  .rodape .package-footer-img {
+    height: 400px;
+    width: 100%;
+    background: url(../img/hero-rodapé-pacote-de-viagens-tablet.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
   }
 }
 
@@ -87,5 +107,15 @@
     text-align: start;
     gap: 8px;
     margin: 0;
+  }
+
+  /* PACOTE DE VIAGENS */
+
+  .rodape .package-footer-img {
+    height: 400px;
+    width: 100%;
+    background: url(../img/hero-rodapé-pacote-de-viagens-desktop.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
   }
 }
